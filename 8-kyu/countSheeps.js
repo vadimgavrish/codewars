@@ -21,3 +21,5 @@ var arr = [true, true, true, false,
 var result = countSheeps(arr);
 
 console.log(result);
+
+// return arrayOfSheeps.filter(Boolean).length; works better
