@@ -1,4 +1,4 @@
-function find_average(array) {
+function find_average (array) {
 
     var sum = 0;
 
@@ -9,3 +9,5 @@ function find_average(array) {
     var result = sum / array.length;
     return result;
 }
+
+console.log(find_average([1,2,3,4,5]));
