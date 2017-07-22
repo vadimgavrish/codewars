@@ -1,12 +1,12 @@
 function friend(friends) {
     
-    var amountOfFriends = [];
+    var myFriends = [];
     
-    for (i = 0; i < friends.length; i++) {    
-        if (friends[i].length == 4) {
-            amountOfFriends.push(friends[i]);
+    friends.forEach(function(element) {
+        if (element.length == 4) {
+            myFriends.push(element);
         }
-    }
+    });
     
-    return amountOfFriends;
+    return myFriends;
 }
