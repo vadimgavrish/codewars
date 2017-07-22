@@ -1,12 +1,3 @@
-function friend(friends) {
-    
-    var myFriends = [];
-    
-    friends.forEach(function(element) {
-        if (element.length == 4) {
-            myFriends.push(element);
-        }
-    });
-    
-    return myFriends;
+function friend(friends){
+    return friends.filter(f => f.length == 4)
 }
